@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kennethkoontz/meme-chatroom/issues"
   },
-  "homepage": "https://github.com/kennethkoontz/meme-chatroom#readme"
+  "homepage": "https://github.com/kennethkoontz/meme-chatroom#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

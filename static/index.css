@@ -1,0 +1,15 @@
+.top-nav{
+    height:100px;
+    background-color:blue;
+}
+.left-nav{
+    background-color:blue;
+    height: 100vh;
+}
+.middle-view{
+    
+}
+.right-nav{
+    background-color:blue;
+    height:100vh ;
+}

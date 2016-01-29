@@ -1,0 +1,38 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:orange;
+    width:99%;
+}
+.box-login{
+    margin-top:14em;
+    padding:10px;
+    border-radius:.9em;
+}
+.Micahel{
+    width:25em;
+}
+
+.theme-1{
+    width:50px;
+    height:50px;
+    margin:5px;
+}
+.theme-2{
+    width:50px;
+    height:50px;
+    background-color:green;
+    margin:5px;
+}
+.theme-3{
+    width:50px;
+    height:50px;
+    background-color:purple;
+    margin:5px;
+}
+.theme-4{
+    width:50px;
+    height:50px;
+    background-color:indianred;
+    margin:5px;
+}

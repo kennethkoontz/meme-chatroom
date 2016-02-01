@@ -1,0 +1,18 @@
+.top-nav{
+    height:100px;
+    background-color:blue;
+}
+.left-nav{
+    background-color:blue;
+    height: 100vh;
+}
+.middle-view{
+    background-color:orange;
+}
+.right-nav{
+    background-color:blue;
+    height:100vh ;
+}
+.input{
+    width:100%;
+}

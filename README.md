@@ -1,5 +1,5 @@
-# meme-chatroom
-Meme Chatroon. Kingsburg project.
+# memit
+Memit. Kingsburg project.
 
 ### Members
 Montgomery Lara geekwise.montgomery.lara@gmail.com  

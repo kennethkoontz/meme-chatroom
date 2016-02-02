@@ -4,26 +4,121 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="icon" href="http://i.imgur.com/Sc4fzCZ.png" type="image/gif" sizes="32x32">
-        <link rel="stylesheet" href="index.css" type="text/css" />
-        <link rel="stylesheet" href="/champions/champions.css" type="text/css" />
-        <link rel="stylesheet" href="/feed/feed.css" type="text/css" />
-        <link rel="stylesheet" href="/frontPg/frontPg.css" type="text/css" />
-        <link rel="stylesheet" href="/frontPg_2/frontPg_2.css" type="text/css" />
-        <link rel="stylesheet" href="/header/header.css" type="text/css" />
-        <link rel="stylesheet" href="/left_side/left_side.css" type="text/css" />
-        <link rel="stylesheet" href="/login/login.css" type="text/css" />
-        <link rel="stylesheet" href="/profile/profile.css" type="text/css" />
-        <link rel="stylesheet" href="/Settings/Settings.css" type="text/css" />
-        <link rel="stylesheet" href="/SignUp/SignUp.css" type="text/css" />
-        <link rel="stylesheet" href="/subs/subs.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.17/angular-ui-router.js"></script>
-        <script src="app.js"></script>
+        <script src="js/app.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Memit</title>
     </head>
     <body>
-        <div ui-view></div> 
+        <div class="container control bg-primary">
+            <div class="row">
+                <div class="col-sm-12 main-view">
+                        
+                    <div class="row">
+                        <div class="col-xs-12 top-nav text-center">
+                            <header>
+                                <!----------------------------------Header Html---------------------------------->
+                                <button class="btn btn-default pull-left">
+                                    tags
+                                </button>
+                                
+                                <button class="btn btn-default pull-left">
+                                    users
+                                </button>
+                                
+                                <button class="btn btn-default pull-right">
+                                    Go
+                                </button>
+                                
+                                <button class="btn btn-default pull-right">
+                                    Shrink
+                                </button>
+                                
+                                <input type="text" class="form-control searchsize text-center" name="" placeholder="Search" />
+                                
+                                
+                                <!----------------------------------Header Html---------------------------------->
+                            </header>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm-2 left-nav">
+                    
+                            <button type="button" class="btn btn-default btn-block" ui-sref="feed">Home</button>
+                     
+                            <button type="button" class="btn btn-default btn-block" ui-sref="profile">Profile</button>
+                  
+                            <button type="button" class="btn btn-default btn-block" ui-sref="settings">Settings</button>
+                   
+                            <button type="button" class="btn btn-default btn-block" ui-sref="subs">Sub-Topics</button>
+                </div>
+                <div class="col-sm-8">
+                    
+                    <div class="col-sm-12">
+                        <input class="form-control" type="text" placeholder="Insert Dank Memes"/>
+                    </div>
+                    <br><br>
+                    <div class="col-sm-12" data-ui-view></div>
+                </div>
+                <div class="col-sm-2 right-nav">
+                    <ul class="list">
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img  src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                               <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                        <li class="champion">
+                            <div class="thumbnail">
+                                <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+ 
     </body>
 </html>

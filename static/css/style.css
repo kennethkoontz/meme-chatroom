@@ -1,0 +1,44 @@
+html,body{
+    margin:0;
+    padding:0;
+    width:99%;
+}
+
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.top-nav{
+    height:100px;
+    padding-top: 10px;
+  }
+
+
+.right-nav{
+   
+    overflow:auto;
+    overflow-x:hidden;
+}
+.input{
+    width:100%;
+}
+
+
+.top-nav{
+    height:100px;
+   
+}
+
+.input{
+    width:100%;
+}
+.searchsize {
+    width: 300px;
+    margin: auto;
+}

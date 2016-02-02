@@ -1,38 +1,40 @@
+/*global angular*/
+
 angular
     .module('app', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
-      $urlRouterProvider.otherwise("/feed");
+      $urlRouterProvider.otherwise("/login");
       $stateProvider
         .state('feed', {
           url: "/feed",
-          templateUrl: "feed/feed.html"
+          templateUrl: "feed.html"
         })
         .state('frontPg', {
           url: "/frontPg",
-          templateUrl: "frontPg/frontPg.html"
+          templateUrl: "frontPg.html"
         })
         .state('frontPg_2', {
           url: "/frontPg_2",
-          templateUrl: "frontPg_2/frontPg_2.html"
+          templateUrl: "frontPg_2.html"
         })
         .state('login', {
           url: "/login",
-          templateUrl: "login/login.html"
+          templateUrl: "login.html"
         }) 
         .state('profile', {
           url: "/profile",
-          templateUrl: "profile/profile.html"
+          templateUrl: "profile.html"
         })  
-        .state('Settings', {
-          url: "/Settings",
-          templateUrl: "Settings/settings.html"
+        .state('settings', {
+          url: "/settings",
+          templateUrl: "settings.html"
         })  
-        .state('SignUp', {
-          url: "/SignUp",
-          templateUrl: "SignUp/SignUp.html"
+        .state('signup', {
+          url: "/signup",
+          templateUrl: "signup.html"
         })  
         .state('subs', {
           url: "/subs",
-          templateUrl: "subs/subs.html"
+          templateUrl: "subs.html"
         })
     });

@@ -25,6 +25,14 @@
                             modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
                             in futurum.
                         </p>
+                        <div ng-repeat='post in posts'>
+                            <img src={post.image}>
+                            <a>{post.name}</a>
+                            <a>{post.person_name}</a>
+                            <a>{post.tag}</a>
+                            <button class="btn btn-default">like</button>
+                            <button class="btn btn-default">flag</button>
+                        </div>
                     </div>
                 </form>
         

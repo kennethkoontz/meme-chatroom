@@ -1,45 +1,13 @@
 
-    <div class="row">
-                    <div class="col-xs-6 middle-view">
-                        <div ng-repeat='post in posts'>
-                            <img src={post.image}>
-                            <a>{post.name}</a>
-                            <a>{post.person_name}</a>
-                            <a>{post.tag}</a>
-                            <button class="btn btn-default">like</button>
-                            <button class="btn btn-default">flag</button>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 middle-view">
-                        <ul>
-                            <li class="champion">
-                                <div class="thumbnail">
-                                    <img  src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
-                                    <a>person</a>
-                                    <br>
-                                    <a>picture name</a>
-                                    <br>
-                                    <a>tags, tags, tags, tags</a>
-                                    <br>
-                                    <button class="btn btn-default">like</button>
-                                    <button class="btn btn-default">flag</button>
-                                </div>
-                            </li>
-                            <li class="champion">
-                                <div class="thumbnail">
-                                    <img src="http://stech2.firstpost.com/tech2images/640x359/proportional/jpeg/gallery/2013/aug/facebookprofile_301007399129.jpg"></img>
-                                    <a>person</a>
-                                    <br>
-                                    <a>picture name</a>
-                                    <br>
-                                    <a>tags, tags, tags, tags</a>
-                                    <br>
-                                    <button class="btn btn-default">like</button>
-                                    <button class="btn btn-default">flag</button>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                </div>
-            </div>
+<div class="row">
+    <div class="col-xs-6 middle-view">
+        <div ng-repeat='post in post'>
+            <img src={post.image}>
+            <a>{post.name}</a>
+            <a>{post.person_name}</a>
+            <a>{post.tag}</a>
+            <button class="btn btn-default">like</button>
+            <button class="btn btn-default">flag</button>
+        </div>
+    </div>
+</div>

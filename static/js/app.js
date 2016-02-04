@@ -8,41 +8,48 @@ angular
         .state('feed', {
           url: "/feed",
           templateUrl: "feed.html",
-          controller: 'feedController'
+          controller: 'feedcontroller'
         })
+        
         .state('frontPg', {
           url: "/frontPg",
           templateUrl: "frontPg.html",
-          controller: 'frontPgController'
+          controller: 'frontPgcontroller'
         })
+        
         .state('frontPg_2', {
           url: "/frontPg_2",
           templateUrl: "frontPg_2.html",
-          controller: 'frontPg_2Controller'
+          controller: 'frontPg_2controller'
         })
+        
         .state('login', {
           url: "/login",
           templateUrl: "login.html",
-          controller: 'loginController'
+          controller: 'logincontroller'
         }) 
+        
         .state('profile', {
           url: "/profile",
           templateUrl: "profile.html",
-          controller: 'profileController'
+          controller: 'profilecontroller'
         })  
+        
         .state('settings', {
           url: "/settings",
           templateUrl: "settings.html",
-          controller: 'settingsController'
+          controller: 'settingscontroller'
         })  
+        
         .state('signup', {
           url: "/signup",
           templateUrl: "signup.html",
-          controller: 'signupController'
+          controller: 'signupcontroller'
         })  
+        
         .state('subs', {
           url: "/subs",
           templateUrl: "subs.html",
-          controller: 'subsController'
+          controller: 'subscontroller'
         })
     });

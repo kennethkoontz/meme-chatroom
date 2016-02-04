@@ -1,4 +1,4 @@
-# memit
+# Memit
 Memit. Kingsburg project.
 
 ### Members

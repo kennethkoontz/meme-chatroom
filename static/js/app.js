@@ -8,7 +8,7 @@ angular
         .state('feed', {
           url: "/feed",
           templateUrl: "feed.html",
-          controller: 'feedcontroller'
+          controller: 'FeedController'
         })
         
         .state('frontPg', {

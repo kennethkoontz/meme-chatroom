@@ -5,7 +5,12 @@ angular
     .config(function($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise("/login");
       $stateProvider
-        .state('feed', {
+        .state('li', {
+          abstract: true,
+          templateUrl: "loggedin.html"
+        })
+      
+        .state('li.feed', {
           url: "/feed",
           templateUrl: "feed.html",
           controller: 'FeedController'
@@ -29,13 +34,13 @@ angular
           controller: 'logincontroller'
         }) 
         
-        .state('profile', {
+        .state('li.profile', {
           url: "/profile",
           templateUrl: "profile.html",
           controller: 'profilecontroller'
         })  
         
-        .state('settings', {
+        .state('li.settings', {
           url: "/settings",
           templateUrl: "settings.html",
           controller: 'settingscontroller'
@@ -45,9 +50,15 @@ angular
           url: "/signup",
           templateUrl: "signup.html",
           controller: 'signupcontroller'
-        })  
+        })
         
-        .state('subs', {
+        .state('signin', {
+          url: "/signin",
+          templateUrl: "signin.html",
+          controller: 'signincontroller'
+        }) 
+        
+        .state('li.subs', {
           url: "/subs",
           templateUrl: "subs.html",
           controller: 'subscontroller'

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /*global angular*/
 
 angular
@@ -66,4 +64,3 @@ angular
           controller: 'subscontroller as subsCrtl'
         })
     });
->>>>>>> 83a1e7027e9bc1fe45667cd04aed4fd89c5c35a9

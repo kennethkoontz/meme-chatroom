@@ -13,25 +13,25 @@ angular
         .state('li.feed', {
           url: "/feed",
           templateUrl: "feed.html",
-          controller: 'FeedController'
+          controller: 'FeedController as FeedCtrl'
         })
         
         .state('frontPg', {
           url: "/frontPg",
           templateUrl: "frontPg.html",
-          controller: 'frontPgcontroller'
+          controller: 'frontPgcontroller as frontPgCrtl'
         })
         
         .state('frontPg_2', {
           url: "/frontPg_2",
           templateUrl: "frontPg_2.html",
-          controller: 'frontPg_2controller'
+          controller: 'frontPg_2controller as frontPg_2Crtl'
         })
         
         .state('login', {
           url: "/login",
           templateUrl: "login.html",
-          controller: 'logincontroller'
+          controller: 'logincontroller as '
         }) 
         
         .state('li.profile', {

@@ -31,36 +31,36 @@ angular
         .state('login', {
           url: "/login",
           templateUrl: "login.html",
-          controller: 'logincontroller as '
+          controller: 'logincontroller as loginCrtl'
         }) 
         
         .state('li.profile', {
           url: "/profile",
           templateUrl: "profile.html",
-          controller: 'profilecontroller'
+          controller: 'profilecontroller as profileCrtl'
         })  
         
         .state('li.settings', {
           url: "/settings",
           templateUrl: "settings.html",
-          controller: 'settingscontroller'
+          controller: 'settingscontroller as settingsCrtl'
         })  
         
         .state('signup', {
           url: "/signup",
           templateUrl: "signup.html",
-          controller: 'signupcontroller'
+          controller: 'signupcontroller as signupCrtl'
         })
         
         .state('signin', {
           url: "/signin",
           templateUrl: "signin.html",
-          controller: 'signincontroller'
+          controller: 'signincontroller as signinCrtl'
         }) 
         
         .state('li.subs', {
           url: "/subs",
           templateUrl: "subs.html",
-          controller: 'subscontroller'
+          controller: 'subscontroller as subsCrtl'
         })
     });

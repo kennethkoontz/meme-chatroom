@@ -1,5 +1,5 @@
 angular
    .module('app')
-   .controller('signupController', function($scope) {
+   .controller('signupController', function() {
     
 })

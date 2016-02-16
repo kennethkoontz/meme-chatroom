@@ -44,7 +44,7 @@ li{
 }
 
 a{
-    color:orange;
+    color:#2B2F9E;
     text-decoration:none;
     display:block;
 }
@@ -56,4 +56,7 @@ a:hover{
 }
 .stuff{
     color:black;
+}
+.search_bar{
+    text-align:left;
 }

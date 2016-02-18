@@ -3,9 +3,7 @@ html,body{
     padding:0;
     width:99%;
 }
-body{
-     text-shadow: 2px 2px 8px #FF0000;
-}
+
 ul{
     list-style-type:none;
     padding:0;

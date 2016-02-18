@@ -49,7 +49,7 @@ angular
         .state('signup', {
           url: "/signup",
           templateUrl: "signup.html",
-          controller: 'signupcontroller as signupCrtl'
+          controller: 'SignupController as SignupCtrl'
         })
         
         .state('signin', {

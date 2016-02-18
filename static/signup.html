@@ -1,24 +1,19 @@
 
-    <form class="text-center">
+    <form class="text-center" ng-submit="SignupCtrl.signup()">
         <div class="form-group">
-
             <div class="col-xs-12 bg-primary SB">
                 <img class="Micahel" src="/images/New_logo_2.png"></img>
                 
                 <form class="text-center">
+                    {{ SignupCtrl.user }}
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Username</label>
-                        <input type="Username" class="form-control" id="exampleInputEmail1" placeholder="Username">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input ng-model="SignupCtrl.user.email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                     </div>
                     
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Confirm Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input ng-model="SignupCtrl.user.password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     
                     <button type="submit" class="btn btn-default"><a href="/index.html">Sign Up</a></button>

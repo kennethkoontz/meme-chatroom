@@ -1,11 +1,11 @@
 
-    <form class="text-center" ng-submit="SignupCtrl.signup()">
+    <form class="text-center" data-ng-submit="SignupCtrl.signup()">
         <div class="form-group">
             <div class="col-xs-12 bg-primary SB">
                 <img class="Micahel" src="/images/New_logo_2.png"></img>
                 
-                <form class="text-center">
-                    {{ SignupCtrl.user }}
+                <form class="text-center" data-ng-submit="submit()">
+                    
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email</label>
                         <input data-ng-model="SignupCtrl.user.email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">

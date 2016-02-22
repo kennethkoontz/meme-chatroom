@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var app = express();
 
-mongoose.connect('mongodb://user:password@ds047095.mongolab.com:47095/kingsburg_gus');
+mongoose.connect('mongodb://user:password@ds011228.mongolab.com:11228/memit');
 
 var user = mongoose.model('user', {
   email: String,
@@ -12,7 +12,7 @@ var user = mongoose.model('user', {
 });
 
 app.use(morgan('short'));
-app.use(express.static(_dirname + '/static'));
+app.use(express.static('static'));
 app.use(bodyParser.json());
 //keeps the data after reload
 app.get('/user', function(req, res) {
@@ -48,6 +48,6 @@ app.patch('/users/:id', function(req, res) {
  });
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 4000, function () {
   console.log('App is ready at http://localhost:' + process.env.PORT);
 });

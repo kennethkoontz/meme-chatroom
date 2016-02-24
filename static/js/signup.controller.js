@@ -7,7 +7,7 @@ angular
       
       function signup() {
          $http({
-            url: '/api/users'
+            url: '/api/users',
             method: 'post',
             data: vm.user
          }).then(function(res) {

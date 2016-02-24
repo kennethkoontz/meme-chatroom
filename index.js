@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var app = express();
 
-mongoose.connect('mongodb://user:password@ds011228.mongolab.com:11228/memit');
+mongoose.connect('mongodb://jack:grizzly@ds011228.mongolab.com:11228/memit');
 
 var user = mongoose.model('user', {
   email: String,
@@ -48,6 +48,6 @@ app.patch('/users/:id', function(req, res) {
  });
 });
 
-app.listen(process.env.PORT || 4000, function () {
-  console.log('App is ready at http://localhost:' + process.env.PORT);
+app.listen(process.env.PORT || 8080, function () {
+  console.log('Your App is waiting for you at http://localhost:' + process.env.PORT);
 });

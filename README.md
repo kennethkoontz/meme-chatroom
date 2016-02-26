@@ -14,9 +14,9 @@ Gustavo Jimenez geekwise.gustavo.jimenez@gmail.com
 
 3 Find other bugs/errors in code and fix
 
-4 Find a new, better logo
+4 make a drop down input and button for attaching/ posting memes
 
-5 When completed do what ever your hearts desire 
+5 make it possble to actually add sub-topics (do it like cars)
 
 ### Installation
 To install run, `npm install`.

@@ -12,9 +12,9 @@ Gustavo Jimenez geekwise.gustavo.jimenez@gmail.com
 
 2 Get linked up to mongodb in both log in and feed
 
-3 Find other bugs/errors in code and fix
+3 ~~Find other bugs/errors in code and fix~~
 
-4 Find a new, better logo
+4 ~~Find a new, better logo~~ canceled 
 
 5 When completed do what ever your hearts desire 
 

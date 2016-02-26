@@ -16,6 +16,7 @@ app.use(express.static('static'));
 app.use(bodyParser.json());
 //keeps the data after reload
 app.get('/user', function(req, res) {
+  console.log("work")
   user
    .find()
    .then(function(result) {
@@ -24,6 +25,7 @@ app.get('/user', function(req, res) {
 });
 
 app.post('/api/users', function(req, res) {
+    console.log("work1")
   var user = new User(req.body);
   user.save(function (err) {
     if (err)
@@ -37,6 +39,7 @@ app.delete('/users/:id', function(req, res) {
     .remove({_id: req.params.id})
     .then(function() {
       res.send({});
+      console.log("work2")
     });
 });
 
@@ -45,6 +48,7 @@ app.patch('/users/:id', function(req, res) {
   .update({_id: req.params.id}, {$set: req.body})
   .then(function(result) {
     res.send(result);
+    console.log("work3")
  });
 });
 

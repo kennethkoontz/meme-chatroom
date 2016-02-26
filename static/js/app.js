@@ -10,6 +10,12 @@ angular
           templateUrl: "loggedin.html"
         })
       
+      
+        .state('cars', {
+          url:"/cars",
+          templateUrl:"cars.html",
+          controller: 'CarsController as CarsCtrl'
+        })
         .state('li.feed', {
           url: "/feed",
           templateUrl: "feed.html",

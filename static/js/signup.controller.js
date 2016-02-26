@@ -12,6 +12,7 @@ angular
             data: vm.user
          }).then(function(res) {
             console.log('created user');   
+            vm.users.push(result.data);
          });
       }
    })

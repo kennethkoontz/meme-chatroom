@@ -60,7 +60,18 @@ a:hover{
 .search_bar{
     text-align:left;
 }
-
-
-
+.life:focus + nav{
+    display:block;
+    clear:both;
+    margin-left:30%;
+    margin-right:30%;
+    width:auto;
+    background-color:#ffffff;
+}
+button{
+    color:#7281D4;
+}
+.REG{
+    color:#7281D4;
+}
 

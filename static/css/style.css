@@ -59,6 +59,7 @@ a:hover{
 }
 .search_bar{
     text-align:left;
+    width:50%;
 }
 .life:focus + nav{
     display:block;
@@ -71,7 +72,7 @@ a:hover{
 button{
     color:#7281D4;
 }
-.REG{
+.reg{
     color:#7281D4;
 }
 
@@ -82,5 +83,8 @@ button{
 }
 
 
-
+.input_bar{
+    text-align:center;
+    width:100%;
+}
 

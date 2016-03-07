@@ -22,6 +22,7 @@ Gustavo Jimenez geekwise.gustavo.jimenez@gmail.com
 
 7 make selected button change color (orange or something like that) to show which search mode is engaged and which page someone is on in the navigation
 
+8 add visual representation for posts about you on profile (copy feed into the botttom of profile more or less)
 
 ### Installation
 To install run, `npm install`.

@@ -5,8 +5,9 @@ Memit. Kingsburg project.
 Montgomery Lara geekwise.montgomery.lara@gmail.com  
 Kevin Henderson geekwise.kevin.henderson@gmail.com  
 Gustavo Jimenez geekwise.gustavo.jimenez@gmail.com
+Cobi Maness geekwise.cobi.maness@gmail.com
 
-### todo while kevin is gone
+### todo
 ----------------------------
 1 ~~Fix all errors in console~~
 

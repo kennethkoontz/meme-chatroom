@@ -3,7 +3,7 @@
 angular
     .module('app', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
-      $urlRouterProvider.otherwise("/signup");
+      $urlRouterProvider.otherwise("/frontPg");
       $stateProvider
         .state('li', {
           abstract: true,

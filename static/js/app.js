@@ -34,12 +34,6 @@ angular
           controller: 'frontPg_2controller as frontPg_2Crtl'
         })
         
-        .state('login', {
-          url: "/login",
-          templateUrl: "login.html",
-          controller: 'logincontroller as loginCrtl'
-        }) 
-        
         .state('li.profile', {
           url: "/profile",
           templateUrl: "profile.html",
@@ -55,7 +49,7 @@ angular
         .state('signup', {
           url: "/signup",
           templateUrl: "signup.html",
-          controller: 'SignupController as SignupCtrl'
+          controller: 'signupcontroller as signupCtrl'
         })
         
         .state('signin', {

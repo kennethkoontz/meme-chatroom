@@ -9,7 +9,7 @@
             <button class="btn btn-default">Flag</button>
         </div>
     </div>
-    <div class="col-xs-6 middle-view">
+    <div class="col-xs-6 middle-view  ng-controller='feedCtrl'">
         <div ng-repeat='post in FeedCtrl.post'>
             <img class="col-xs-12 middle-view" ng-src="{{post.image}}">
             <a>{{post.name}}</a>

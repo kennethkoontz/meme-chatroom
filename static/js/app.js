@@ -55,7 +55,7 @@ angular
         .state('signin', {
           url: "/signin",
           templateUrl: "signin.html",
-          controller: 'SigninController as SigninCtrl'
+          controller: 'signinController as SigninCtrl'
         }) 
         
         .state('li.subs', {

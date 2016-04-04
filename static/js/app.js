@@ -14,42 +14,42 @@ angular
         .state('cars', {
           url:"/cars",
           templateUrl:"cars.html",
-          controller: 'CarsController as CarsCtrl'
+          controller: 'carsController as carsCtrl'
         })
         .state('li.feed', {
           url: "/feed",
           templateUrl: "feed.html",
-          controller: 'FeedController as FeedCtrl'
+          controller: 'feedController as feedCtrl'
         })
         
         .state('frontPg', {
           url: "/frontPg",
           templateUrl: "frontPg.html",
-          controller: 'frontPgcontroller as frontPgCtrl'
+          controller: 'frontPgController as frontPgCtrl'
         })
         
         .state('frontPg_2', {
           url: "/frontPg_2",
           templateUrl: "frontPg_2.html",
-          controller: 'frontPg_2controller as frontPg_2Ctrl'
+          controller: 'frontPg_2Controller as frontPg_2Ctrl'
         })
         
         .state('li.profile', {
           url: "/profile",
           templateUrl: "profile.html",
-          controller: 'profilecontroller as profileCtrl'
+          controller: 'profileController as profileCtrl'
         })  
         
         .state('li.settings', {
           url: "/settings",
           templateUrl: "settings.html",
-          controller: 'settingscontroller as settingsCtrl'
+          controller: 'settingsController as settingsCtrl'
         })  
         
         .state('signup', {
           url: "/signup",
           templateUrl: "signup.html",
-          controller: 'signupcontroller as signupCtrl'
+          controller: 'signupController as signupCtrl'
         })
         
         .state('signin', {
@@ -61,6 +61,6 @@ angular
         .state('li.subs', {
           url: "/subs",
           templateUrl: "subs.html",
-          controller: 'subscontroller as subsCtrl'
+          controller: 'subsController as subsCtrl'
         })
     });

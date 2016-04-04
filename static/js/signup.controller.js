@@ -1,6 +1,6 @@
 angular
    .module('app')
-   .controller('SignupController', function($http) {
+   .controller('signupController', function($http) {
       var vm = this;   
       vm.user = {};
       vm.signup = signup;

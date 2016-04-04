@@ -1,8 +1,8 @@
 angular
    .module('app')
-   .controller('FeedController', function() {
+   .controller('feedController', function() {
         var vm = this
         vm.post=[
-           {image: "/images/hotdog.jpg" , name: "Person", picture_name: "picture", tag: "Tag" }
+           {image: "/images/Anon.jpg" , name: "Person", picture_name: "picture", tag: "Tag" }
         ];
     });

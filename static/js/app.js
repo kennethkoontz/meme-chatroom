@@ -3,7 +3,7 @@
 angular
     .module('app', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
-      $urlRouterProvider.otherwise("/feed");
+      $urlRouterProvider.otherwise("/frontPg");
       $stateProvider
         .state('li', {
           abstract: true,

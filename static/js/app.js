@@ -63,4 +63,9 @@ angular
           templateUrl: "subs.html",
           controller: 'subsController as subsCtrl'
         })
+        .state('li.Game_memes', {
+          url: "/Game_memes",
+          templateUrl: "Game_memes.html",
+          controller: 'Game_memesController as Game_memesCtrl'
+        })
     });

@@ -98,3 +98,7 @@ a:hover{
     margin-top:10px;
     margin-bottom:10px;
 }
+@font-face {
+    font-family: "Candal";
+    src: url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Candal) format("truetype");
+}

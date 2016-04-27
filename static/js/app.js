@@ -68,4 +68,9 @@ angular
           templateUrl: "Game_memes.html",
           controller: 'Game_memesController as Game_memesCtrl'
         })
+       .state('li.Old_memes', {
+        url: "/Old_memes",
+        templateUrl: "Old_memes.html",
+        controller: 'Old_memesController as Old_memesCtrl'
+        })
     });

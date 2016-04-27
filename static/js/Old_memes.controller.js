@@ -1,6 +1,6 @@
 angular
    .module('app')
-   .controller('Game_memesController', function() {
+   .controller('Old_memesController', function() {
         var vm = this
         vm.post=[
 
